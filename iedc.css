@@ -1,0 +1,95 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Navbar{
+
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  border: .3em green solid;
+  border-radius:2em;
+
+}
+
+.Navbar>img{
+  height:5.5em;
+  margin:0em 1em;
+}
+
+.options{
+  display:inherit;
+  margin:0em 2em;
+}
+
+.options>*{
+  padding:0em 1em;
+}
+
+body{
+  background-image: url("https://cdni.iconscout.com/illustration/premium/thumb/students-studying-online-2974943-2477369.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+
+  margin:0em;
+}
+
+.about{
+  margin:10em auto;
+  font-size: 1em;
+  text-align: center;
+}
+
+.posters{
+  display:flex;
+  flex-flow:wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.posters>img{
+  width:25em;
+  margin:3em;
+}
+
+.contact_us{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: green;
+}
+
+.contact_info{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.contact_info>img{
+  height:1em;
+}
+
+.contact_info>*{
+  padding:0em .2em;
+}
